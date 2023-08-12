@@ -9,13 +9,51 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.1",
+    "@react-navigation/drawer": "^6.5.7",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/native-stack": "^6.9.1",
+    "axios": "^1.2.0",
     "expo": "~47.0.6",
+    "expo-av": "~13.0.2",
+    "expo-font": "^11.0.1",
+    "expo-splash-screen": "^0.17.5",
     "expo-status-bar": "~1.4.2",
+    "multer": "^1.4.5-lts.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-curved-bottom-bar": "^2.1.4",
+    "react-native-fa-icons": "^4.1.1",
+    "react-native-falling-drawer": "^1.0.2",
+    "react-native-fontawesome": "^7.0.0",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-image-picker": "^5.0.1",
+    "react-native-image-picker-m": "^0.27.0",
+    "react-native-image-slider-box": "^2.0.7",
+    "react-native-navigation": "^7.30.2",
+    "react-native-paper": "^4.12.5",
+    "react-native-password-eye": "^1.0.5",
+    "react-native-reanimated": "~2.12.0",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-timed-slideshow": "^1.2.1",
+    "react-native-video": "^5.2.1",
+    "react-native-webview": "11.23.1",
+    "react-native-youtube-iframe": "^2.2.2",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
+  },
+  "resolutions": {
+    "@babel/core": "^7.20.2",
+    "babel-loader": "8.3.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
   },
   "private": true
 }
